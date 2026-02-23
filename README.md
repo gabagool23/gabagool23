@@ -1,16 +1,32 @@
 ## Hi there 👋
 
-<!--
-**baker42757/baker42757** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build **Polymarket trading bots** in Rust — copy trading, arbitrage, hedging, and market-making strategies for prediction markets.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Polymarket trading bots
+
+| Bot | Description |
+|-----|-------------|
+| [**Polymarket Market Maker Bot**](https://github.com/baker42757/Polymarket-market-maker-bot) | Hedging & arbitrage for 15-minute crypto binary markets (BTC, ETH, SOL). Binance/Bybit latency signals. |
+| [**Polymarket Copy Trading Bot**](https://github.com/baker42757/polymarket-copy-trading-bot) | Copy trades from successful Polymarket traders (whales) in real time. |
+| [**Polymarket Arbitrage Bot**](https://github.com/baker42757/polymarket-arbitrage-trading-bot) | 15-minute crypto (BTC, ETH, SOL) hedging arbitrage + latency/signal arbitrage. |
+| [**Polymarket–Kalshi Arbitrage Bot**](https://github.com/baker42757/polymarket-kalshi-arbitrage-trading-bot) | Cross-platform arbitrage between Kalshi and Polymarket. |
+| [**15min–5min Arbitrage Bot**](https://github.com/baker42757/Polymarket-15min-5min-arbitrage-bot) | Arbitrage between BTC 15-minute and 5-minute Up/Down markets (overlap window). |
+| [**5min BTC Trading Bot**](https://github.com/baker42757/5min-btc-polymarket-trading-bot) | 5-minute BTC binary markets: lock/expansion, ride-winner, PnL rebalance. |
+| [**1hr Crypto Monitor**](https://github.com/baker42757/1hour-crypto-polymarket-trading-bot) | BTC 1-hour market monitoring (no trading). |
+| [**15min Crypto Trading Bot**](https://github.com/baker42757/15min-crypto-polymarket-trading-bot) | 15-minute crypto (BTC, ETH, SOL, XRP): two-leg dump detection + hedge. |
+
+---
+
+### Disclaimer
+
+In today’s market, **some of these bots may not be profitable and can lose money.** Use them as **reference implementations** for building your own market-making and arbitrage strategies, **not** as ready-to-deploy solutions.
+
+---
+
+### If you use my bots
+
+I’d really appreciate a **star** and a **fork** on the repo you use.
+
+If you want to **update or extend** any of these bots, please contact me on **Telegram: [@baker1119](https://t.me/baker1119)**.
